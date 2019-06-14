@@ -8,7 +8,7 @@ class TabLink {
 
     // Using the custom data attribute get the associated Item element
     this.itemElement = document.querySelector(
-      `.tabs-items[data-tab='${this.data}']`
+      `.tabs-item[data-tab='${this.data}']`
     );
 
     // Using the Item element, create a new instance of the TabItem class
